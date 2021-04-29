@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: verdana;
+}
+
+body{
+    background-color: #dddddd;
+}
+
+/**HEADER**/
+
+
+header img{
+    width: 50px;
+    margin-top: 10px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(194, 3, 201);
+    margin: 0;
+}
+
+/**NAVEGACION**/
+
+nav{
+    background-color: darkturquoise;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 500px){
+    header h1{
+        font-size: 16px;
+    }
+
+    header img{
+        width: 30px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .ultimas h2{
+        font-size: 12px;
+    }
+
+}
+
+nav a{
+    text-decoration: none;
+    color: darkblue;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: white;
+}
+
+/**ÚLTIMAS PUBLICACIONES**/
+
+.ultimas{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: solid 1px;
+    margin-top: 20px;
+
+    background: rgba(39,217,230,1);
+background: -moz-linear-gradient(-45deg, rgba(39,217,230,1) 0%, rgba(39,217,230,0.97) 30%, rgba(247,52,185,0.93) 70%, rgba(247,52,185,0.9) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(39,217,230,1)), color-stop(30%, rgba(39,217,230,0.97)), color-stop(70%, rgba(247,52,185,0.93)), color-stop(100%, rgba(247,52,185,0.9)));
+background: -webkit-linear-gradient(-45deg, rgba(39,217,230,1) 0%, rgba(39,217,230,0.97) 30%, rgba(247,52,185,0.93) 70%, rgba(247,52,185,0.9) 100%);
+background: -o-linear-gradient(-45deg, rgba(39,217,230,1) 0%, rgba(39,217,230,0.97) 30%, rgba(247,52,185,0.93) 70%, rgba(247,52,185,0.9) 100%);
+background: -ms-linear-gradient(-45deg, rgba(39,217,230,1) 0%, rgba(39,217,230,0.97) 30%, rgba(247,52,185,0.93) 70%, rgba(247,52,185,0.9) 100%);
+background: linear-gradient(135deg, rgba(39,217,230,1) 0%, rgba(39,217,230,0.97) 30%, rgba(247,52,185,0.93) 70%, rgba(247,52,185,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27d9e6', endColorstr='#f734b9', GradientType=1 );
+}
+
+.ultimas h2{
+    padding: 10px;
+    border: solid 1px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.ultimas img{
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+
+/**PÁGINAS**/
+
+.paginas{
+    text-align: center;
+    margin: 15px;
+}
+
+.paginas a{
+    color: blue;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 5px;
+    margin: 3px;
+}
+
+
+/**FOOTER**/
+
+footer{
+    background-color: rgb(66, 66, 66);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.redes{
+    margin: 10px;
+}
